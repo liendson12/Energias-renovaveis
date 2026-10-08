@@ -47,7 +47,7 @@ update public.profiles set is_admin = true where phone = '258840000000';
 - Compra de títulos, resgates e levantamentos são feitos por funções no servidor (`schema.sql`). O cliente não consegue alterar o próprio saldo.
 - O rendimento acumula a cada minuto (taxa anual ÷ minutos do ano). Capital + rendimento só são pagos no fim do prazo.
 - Levantamento: o valor sai do saldo no pedido; se rejeitar, volta ao saldo.
-- Limites na base de dados: rendimento máximo 25% ao ano, prazo mínimo 30 dias, projeto só publica com documentação.
+- Limites na base de dados: rendimento máximo 80% ao ano, prazo mínimo 30 dias, projeto só publica com documentação.
 
 ## 6. Testar um resgate sem esperar
 
