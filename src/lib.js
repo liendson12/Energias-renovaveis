@@ -2,7 +2,7 @@ import { supabase } from "./supabase";
 
 export const MIN = 60000;
 export const YEAR_MIN = 365 * 1440;
-export const MAX_RATE = 100; // tem de coincidir com o limite na base de dados
+export const MAX_RATE = 50; // tem de coincidir com o limite na base de dados
 export const MIN_TERM = 4; // prazo mínimo (dias); tem de coincidir com a base de dados
 
 export const fmt = (n, d = 2) =>
